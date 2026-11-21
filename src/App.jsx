@@ -563,16 +563,16 @@ function Hero() {
       </div>
       <div className="hero-visual">
         <div className="portrait-frame">
-          {/* Photo lives at public/me1.png. */}
+          {/* Photo lives at public/me1.webp. */}
           <img
-            src="/me1.png"
+            src="/me1.webp"
             alt="Aishwarya profile"
             onError={(e) => { e.currentTarget.style.display = "none"; }}
           />
           <div className="portrait-placeholder">
             <span className="placeholder-initial">A</span>
             <span>Add your photo</span>
-            <small>public/me1.png</small>
+            <small>public/me1.webp</small>
           </div>
         </div>
       </div>
